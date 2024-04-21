@@ -389,4 +389,350 @@ class Experiment {
     const styles = {stroke, fill}
     return styles
   }
+  static createHouse(){
+    const Cls = this
+    return Cls.manGeometry()
+  }
+  static HouseGeometry(){
+    const path = new Path2D()
+  //   path.beginPath();
+	// path.globalAlpha = 0.8;
+	// path.fillStyle = 'rgb(0, 0, 128)';
+	// path.lineWidth = 0.070004;
+	path.moveTo(74.404992, 115.904110);
+	path.lineTo(74.090606, 111.397900);
+	path.lineTo(74.090606, 111.546100);
+	path.lineTo(69.615081, 109.332680);
+	path.bezierCurveTo(68.633957, 108.390380, 68.910878, 106.944860, 68.850816, 105.634130);
+	path.lineTo(68.850816, 105.634130);
+	path.bezierCurveTo(74.638635, 103.392690, 77.372026, 99.139242, 78.024171, 93.342332);
+	path.lineTo(81.426308, 92.953844);
+	path.lineTo(80.884349, 86.919096);
+	path.lineTo(79.120803, 85.932528);
+	path.lineTo(83.103042, 76.081725);
+	path.lineTo(97.879243, 78.911211);
+	path.bezierCurveTo(98.748714, 78.451353, 99.395962, 77.658163, 99.870365, 76.605703);
+	path.lineTo(99.870365, 72.413872);
+	path.lineTo(98.508020, 72.413872);
+	path.lineTo(101.547100, 64.658985);
+	path.lineTo(104.481380, 72.413872);
+	path.lineTo(103.223830, 72.413872);
+	path.lineTo(103.223830, 72.413872);
+	path.bezierCurveTo(103.386210, 74.207203, 103.616190, 75.983635, 103.014240, 77.968048);
+	path.bezierCurveTo(102.610440, 78.802243, 102.147760, 79.518681, 101.547100, 79.959167);
+	path.lineTo(104.271780, 80.273556);
+	path.lineTo(104.271780, 80.273556);
+	path.lineTo(111.188310, 91.067518);
+	path.lineTo(109.616370, 91.067518);
+	path.lineTo(108.358820, 96.726490);
+	path.lineTo(111.083510, 97.040879);
+	path.bezierCurveTo(111.070110, 101.233210, 111.508160, 105.408810, 116.742480, 109.406780);
+	path.bezierCurveTo(116.197860, 110.520010, 115.580090, 111.486940, 114.838180, 112.205570);
+	path.bezierCurveTo(113.866080, 112.978620, 112.893980, 112.966790, 111.921880, 112.969830);
+	path.lineTo(111.607490, 121.772680);
+	path.lineTo(119.152780, 117.580850);
+	path.lineTo(126.907670, 130.156340);
+	path.lineTo(129.003580, 128.060420);
+	path.lineTo(129.003580, 128.060420);
+	path.lineTo(128.898790, 123.763800);
+	path.lineTo(127.641240, 123.868590);
+	path.lineTo(130.575520, 117.476050);
+	path.lineTo(133.300210, 123.973390);
+	path.lineTo(132.042660, 123.973390);
+	path.lineTo(131.937870, 129.527570);
+	path.lineTo(130.051540, 131.937870);
+	path.lineTo(128.270010, 132.881030);
+	path.lineTo(133.509800, 141.264690);
+	path.lineTo(128.165220, 141.055100);
+	path.lineTo(125.859710, 152.687430);
+	path.lineTo(133.195420, 152.582630);
+	path.lineTo(138.016020, 162.643030);
+	path.lineTo(135.081740, 162.852620);
+	path.lineTo(135.500920, 175.847290);
+	path.lineTo(136.548880, 175.847290);
+	path.lineTo(136.339290, 177.628820);
+	path.lineTo(135.081740, 177.524020);
+	path.lineTo(135.186530, 180.143920);
+	path.lineTo(133.719400, 180.563100);
+	path.lineTo(133.719400, 180.563100);
+	path.lineTo(133.614600, 177.628820);
+	path.lineTo(131.623480, 177.419230);
+	path.lineTo(131.623480, 180.982280);
+	path.lineTo(130.575520, 180.982280);
+	path.lineTo(130.470730, 177.628820);
+	path.lineTo(128.898790, 177.628820);
+	path.lineTo(128.898790, 181.087080);
+	path.lineTo(127.850830, 181.087080);
+	path.lineTo(127.850830, 181.087080);
+	path.lineTo(128.270010, 177.314430);
+	path.lineTo(126.383690, 177.628820);
+	path.lineTo(125.859710, 181.401470);
+	path.lineTo(56.904101, 179.410350);
+	path.lineTo(53.131452, 163.062210);
+	path.lineTo(49.568396, 162.538230);
+	path.lineTo(56.799305, 153.316200);
+	path.lineTo(52.921860, 141.159890);
+	path.lineTo(49.673192, 141.159890);
+	path.lineTo(64.763781, 113.493810);
+// 	path.closePath();
+// 	path.fill();
+	
+// // #path8-2-9-6-79
+// 	path.beginPath();
+// 	path.globalAlpha = 0.8;
+// 	path.fillStyle = 'rgb(0, 0, 0)';
+// 	path.lineWidth = 0.139966;
+	path.moveTo(61.243030, 155.591840);
+	path.lineTo(73.399963, 155.684140);
+	path.lineTo(73.563253, 142.905890);
+	path.bezierCurveTo(71.690053, 134.871500, 62.552455, 134.917600, 61.104603, 142.905890);
+// 	path.closePath();
+// 	path.fill();
+	
+// // #path8-2-9-6-1
+// 	path.beginPath();
+// 	path.globalAlpha = 0.8;
+// 	path.fillStyle = 'rgb(0, 0, 0)';
+// 	path.lineWidth = 0.085234;
+	path.moveTo(102.877460, 155.828250);
+	path.lineTo(109.105200, 155.895050);
+	path.lineTo(109.188800, 146.644940);
+	path.bezierCurveTo(108.229190, 140.828890, 103.548200, 140.862260, 102.806490, 146.644940);
+// 	path.closePath();
+// 	path.fill();
+	
+// // #path8-2-9-6-16
+// 	path.beginPath();
+// 	path.globalAlpha = 0.8;
+// 	path.fillStyle = 'rgb(0, 0, 0)';
+// 	path.lineWidth = 0.085234;
+	path.moveTo(87.252429, 175.846190);
+	path.lineTo(93.480169, 175.912990);
+	path.lineTo(93.563769, 166.662880);
+	path.bezierCurveTo(92.604159, 160.846830, 87.923169, 160.880200, 87.181459, 166.662880);
+// 	path.closePath();
+// 	path.fill();
+	
+// // #path8-2-9-6-7
+// 	path.beginPath();
+// 	path.globalAlpha = 0.8;
+// 	path.fillStyle = 'rgb(0, 0, 0)';
+// 	path.lineWidth = 0.085234;
+	path.moveTo(75.459788, 175.909840);
+	path.lineTo(81.687528, 175.976640);
+	path.lineTo(81.771128, 166.726530);
+	path.bezierCurveTo(80.811518, 160.910480, 76.130528, 160.943850, 75.388818, 166.726530);
+// 	path.closePath();
+// 	path.fill();
+	
+// // #path8-2-9-6-12
+// 	path.beginPath();
+// 	path.globalAlpha = 0.8;
+// 	path.fillStyle = 'rgb(0, 0, 0)';
+// 	path.lineWidth = 0.085234;
+	path.moveTo(63.603501, 175.909840);
+	path.lineTo(69.831241, 175.976640);
+	path.lineTo(69.914841, 166.726530);
+	path.bezierCurveTo(68.955231, 160.910480, 64.274241, 160.943850, 63.532531, 166.726530);
+// 	path.closePath();
+// 	path.fill();
+	
+// // #path8-2-9-6-10
+// 	path.beginPath();
+// 	path.globalAlpha = 0.8;
+// 	path.fillStyle = 'rgb(0, 0, 0)';
+// 	path.lineWidth = 0.085234;
+	path.moveTo(114.659640, 155.902350);
+	path.lineTo(120.887380, 155.969150);
+	path.lineTo(120.970980, 146.719040);
+	path.bezierCurveTo(120.011370, 140.902990, 115.330380, 140.936360, 114.588670, 146.719040);
+// 	path.closePath();
+// 	path.fill();
+	
+// // #path8-2-9-3-3
+// 	path.beginPath();
+// 	path.globalAlpha = 0.8;
+// 	path.fillStyle = 'rgb(0, 0, 0)';
+// 	path.lineWidth = 0.052399;
+	path.moveTo(114.595130, 172.740820);
+	path.lineTo(119.286650, 172.620160);
+	path.lineTo(119.133660, 167.914410);
+	path.bezierCurveTo(118.283750, 164.857700, 115.397220, 164.797350, 114.544140, 167.914410);
+// 	path.closePath();
+// 	path.fill();
+	
+// // #path8-2-9-3
+// 	path.beginPath();
+// 	path.globalAlpha = 0.8;
+// 	path.fillStyle = 'rgb(0, 0, 0)';
+// 	path.lineWidth = 0.052399;
+	path.moveTo(107.094550, 172.905470);
+	path.lineTo(111.786070, 172.784810);
+	path.lineTo(111.633080, 168.079060);
+	path.bezierCurveTo(110.783170, 165.022350, 107.896640, 164.962000, 107.043560, 168.079060);
+// 	path.closePath();
+// 	path.fill();
+	
+// // #path8-2-9-6
+// 	path.beginPath();
+// 	path.globalAlpha = 0.8;
+// 	path.fillStyle = 'rgb(0, 0, 0)';
+// 	path.lineWidth = 0.085234;
+	path.moveTo(91.108482, 155.862060);
+	path.lineTo(97.336222, 155.928860);
+	path.lineTo(97.419872, 146.678750);
+	path.bezierCurveTo(96.460271, 140.862700, 91.779273, 140.896070, 91.037569, 146.678750);
+// 	path.closePath();
+// 	path.fill();
+	
+// // #path8-2-9-1
+// 	path.beginPath();
+// 	path.globalAlpha = 0.8;
+// 	path.fillStyle = 'rgb(0, 0, 0)';
+// 	path.lineWidth = 0.052106;
+	path.moveTo(95.033890, 121.281120);
+	path.lineTo(99.727000, 122.195390);
+	path.lineTo(99.430587, 116.354550);
+	path.bezierCurveTo(99.125950, 113.234410, 95.810914, 113.172810, 94.984493, 116.354550);
+// 	path.closePath();
+// 	path.fill();
+	
+// // #path8-2-9-2
+// 	path.beginPath();
+// 	path.globalAlpha = 0.8;
+// 	path.fillStyle = 'rgb(0, 0, 0)';
+// 	path.lineWidth = 0.056577;
+	path.moveTo(82.909877, 118.317050);
+	path.lineTo(90.093765, 119.781290);
+	path.lineTo(89.933601, 115.531640);
+	path.bezierCurveTo(88.706277, 111.944680, 84.212181, 111.750540, 83.054104, 115.457540);
+// 	path.closePath();
+// 	path.fill();
+	
+// // #path8-2-1
+// 	path.beginPath();
+// 	path.globalAlpha = 0.8;
+// 	path.fillStyle = 'rgb(0, 0, 0)';
+// 	path.lineWidth = 0.043591;
+	path.moveTo(102.242650, 96.382154);
+	path.lineTo(105.907890, 96.275269);
+	path.lineTo(105.788380, 92.106620);
+	path.bezierCurveTo(105.124380, 89.398782, 102.869280, 89.345332, 102.202810, 92.106620);
+// 	path.closePath();
+// 	path.fill();
+	
+// // #path8-2
+// 	path.beginPath();
+// 	path.globalAlpha = 0.8;
+// 	path.fillStyle = 'rgb(0, 0, 0)';
+// 	path.lineWidth = 0.042388;
+	path.moveTo(95.839579, 95.068312);
+	path.lineTo(99.431521, 94.965182);
+	path.lineTo(99.314396, 90.943014);
+	path.bezierCurveTo(98.663681, 88.330326, 96.453678, 88.278755, 95.800536, 90.943014);
+// 	path.closePath();
+// 	path.fill();
+	
+// // #path8
+// 	path.beginPath();
+// 	path.globalAlpha = 0.8;
+// 	path.fillStyle = 'rgb(0, 0, 0)';
+// 	path.lineWidth = 0.070004;
+	path.moveTo(82.994012, 93.516467);
+	path.lineTo(89.811378, 93.368265);
+	path.lineTo(89.589074, 87.588324);
+	path.bezierCurveTo(88.354043, 83.833836, 84.159547, 83.759728, 82.919910, 87.588324);
+// 	path.closePath();
+// 	path.fill();
+	
+// // #path8-2-9
+// 	path.beginPath();
+// 	path.globalAlpha = 0.8;
+// 	path.fillStyle = 'rgb(0, 0, 0)';
+// 	path.lineWidth = 0.057580;
+	path.moveTo(103.504460, 122.479970);
+	path.lineTo(108.195980, 122.334270);
+	path.lineTo(108.042990, 116.651980);
+	path.bezierCurveTo(107.193080, 112.960940, 104.306550, 112.888070, 103.453470, 116.651980);
+// 	path.closePath();
+// 	path.fill();
+	
+// // #path9
+// 	path.beginPath();
+// 	path.globalAlpha = 0.8;
+// 	path.fillStyle = 'rgb(0, 0, 128)';
+// 	path.lineWidth = 0.070004;
+	path.moveTo(127.306890, 145.017210);
+	path.bezierCurveTo(129.585230, 145.530440, 129.484780, 143.268410, 129.455840, 141.089820);
+	path.lineTo(130.419160, 141.089820);
+	path.lineTo(130.419160, 144.646700);
+	path.bezierCurveTo(129.724720, 146.376460, 128.343200, 146.273970, 127.084580, 146.499250);
+// 	path.closePath();
+// 	path.fill();
+	
+// // #path10
+// 	path.beginPath();
+// 	path.globalAlpha = 0.8;
+// 	path.fillStyle = 'rgb(21, 21, 21)';
+// 	path.lineWidth = 0.070004;
+	path.moveTo(126.343560, 175.917660);
+	path.lineTo(133.531440, 175.917660);
+	path.lineTo(133.679640, 162.727540);
+	path.lineTo(131.308380, 162.653440);
+	path.lineTo(131.308380, 163.172150);
+	path.lineTo(132.790420, 164.580090);
+	path.lineTo(132.790420, 164.950600);
+	path.lineTo(132.494010, 164.950600);
+	path.lineTo(132.271700, 168.211080);
+	path.lineTo(132.568110, 168.803890);
+	path.lineTo(132.197600, 169.174400);
+	path.lineTo(129.974550, 169.100300);
+	path.lineTo(129.678140, 168.803890);
+	path.lineTo(129.826350, 168.285180);
+	path.lineTo(129.678140, 165.024700);
+	path.lineTo(129.159430, 164.950600);
+	path.lineTo(129.159430, 164.654190);
+	path.lineTo(130.641470, 163.246260);
+	path.lineTo(130.641470, 162.653440);
+	path.lineTo(128.196110, 162.653440);
+// 	path.closePath();
+// 	path.fill();
+	
+// // #path11
+// 	path.beginPath();
+// 	path.globalAlpha = 0.8;
+// 	path.fillStyle = 'rgba(251, 255, 52, 0.742739)';
+// 	path.lineWidth = 0.070004;
+	path.moveTo(130.196860, 165.024700);
+	path.lineTo(131.901200, 165.024700);
+	path.lineTo(132.123500, 168.136980);
+	path.lineTo(131.530690, 168.285180);
+	path.lineTo(131.530690, 167.618260);
+	path.lineTo(131.234280, 167.618260);
+	path.lineTo(131.308380, 166.432630);
+	path.lineTo(130.641470, 166.432630);
+	path.lineTo(130.715570, 167.544160);
+	path.lineTo(130.641470, 168.211080);
+	path.lineTo(130.122750, 168.211080);
+	// path.closePath();
+	// path.fill();    
+    return path
+  }
+  static getHouseTransform(){
+    const transform = new DOMMatrix([
+      1.04, 0, 0, 0.78, 185, 184
+      ])
+    return transform
+  }
+  static getBaseStylesHouse(){
+    
+    const stroke = {c: '#ffffff', w: 1}
+    const c = 'rgba(0,0,0,100)'
+    const canvasSel = '#myCanvas'
+    const canvas=document.querySelector(canvasSel)
+    const ctx=canvas.getContext('2d')
+    const fill = {c, r: 'evenodd'}
+    const styles = {stroke, fill}
+    return styles
+  }
 }

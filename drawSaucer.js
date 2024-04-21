@@ -15,12 +15,14 @@ function drawSaucer(ctx) {
     }
     startTime = performance.now(); 
 
+	drawHouse(ctx)
     intervalId = setInterval(() => {
         const elapsedTime = performance.now() - startTime;
         const progress = Math.min(elapsedTime / duration, 1); 
 
+		// drawHouse(ctx)
         ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height); 
-		
+		disappearHouse(ctx);		
         const scale = interpolate(startTransform.scale, endTransform.scale, progress);
         const translateX = interpolate(startTransform.translateX, endTransform.translateX, progress);
         const translateY = interpolate(startTransform.translateY, endTransform.translateY, progress);
@@ -32,6 +34,9 @@ function drawSaucer(ctx) {
         ctx.restore();
         if (progress === 1) {
 			clearInterval(intervalId);
+			drawHouse(ctx)
+			// disappearHouse(ctx);
+			// drawHouse(ctx)
             setTimeout(() => {
                 drawLLight(ctx);
             }, 1000); 
@@ -56,7 +61,7 @@ function drawSaucer(ctx) {
 }
 // ANIMATION GOING UFO
 const startTransformBack = { scale: 2, translateX: 500, translateY: -150 };
-const endTransformBack = { scale: 0.8, translateX: 1250, translateY: -95 };
+const endTransformBack = { scale: 0.8, translateX: 2000, translateY: -300 };
 
 function drawSaucerBack(ctx) {
     startTime = performance.now(); 
@@ -66,6 +71,10 @@ function drawSaucerBack(ctx) {
         const progress = Math.min(elapsedTime / duration, 1);
 
         ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height); 
+		 disappearHouse(ctx);
+		// ctx.addEventListener('click', () => {
+		// 	drawHouse(ctx, 0);
+		// });
         
         const scale = interpolate(startTransformBack.scale, endTransformBack.scale, progress);
         const translateX = interpolate(startTransformBack.translateX, endTransformBack.translateX, progress);
@@ -75,10 +84,14 @@ function drawSaucerBack(ctx) {
         ctx.transform(scale, -0.1, -0.1, scale, translateX, translateY);
         
         drawSaucerRaw(ctx);
+		
         ctx.restore();
         
         if (progress === 1) {
             clearInterval(intervalId);
+			disappearHouse(ctx)
+			drawHouse(ctx)
+			
         }
     }, 6); 
 }

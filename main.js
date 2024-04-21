@@ -27,8 +27,7 @@ function main() {
   // --------------------------------------------------
   const path = Experiment.createGeometry()
   const path2 = Experiment.createMan()
-
-
+  const path3 = Experiment.createHouse()
   // --------------------------------------------------
   // Transform
   // --------------------------------------------------
@@ -38,12 +37,14 @@ function main() {
   const transform = Experiment.getBaseTransform()
   
   const transform2 = Experiment.getManTransform()
+  const transform3 = Experiment.getHouseTransform()
 
   // --------------------------------------------------
   // Render Styles
   // --------------------------------------------------
   const styles = Experiment.getBaseStyles()
   const styles2 = Experiment.getBaseStylesMan()
+  const styles3 = Experiment.getBaseStylesHouse()
 
   // --------------------------------------------------
   // Render
@@ -51,9 +52,8 @@ function main() {
 
 
   // UFO
+  drawHouse(ctx,0)
   drawSaucer(ctx)
-
-
 }
 function updateCandidateDetails({rollNos,names}) {
   let isValidRollNo, isValidName, act, byHtml, n

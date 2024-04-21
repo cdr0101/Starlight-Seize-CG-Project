@@ -4,7 +4,8 @@ function drawLLight (ctx) {
         clickSound2.play();  
     });
     ctx.save()
-    ctx.transform(10.8,0.5,0.5,8,-690,-937)
+    ctx.transform(10.8,0.5,0.5,10,-690,-1210)
+    // ctx.transform(10.8,0.5,0.5,10,ctx.canvas.width*0.2,ctx.canvas.height*0.2)
     drawLLightRaw(ctx)
     ctx.restore()
 }
