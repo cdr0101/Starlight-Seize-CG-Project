@@ -15,14 +15,18 @@ function drawSaucer(ctx) {
     }
     startTime = performance.now(); 
 
-	drawHouse(ctx)
+	var canvas = document.getElementById('myCanvas');
+canvas.addEventListener('click', function() {
+    var ctx = canvas.getContext('2d');
+    drawHouse(ctx);
+});
     intervalId = setInterval(() => {
         const elapsedTime = performance.now() - startTime;
         const progress = Math.min(elapsedTime / duration, 1); 
 
 		// drawHouse(ctx)
         ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height); 
-		disappearHouse(ctx);		
+		// disappearHouse(ctx);		
         const scale = interpolate(startTransform.scale, endTransform.scale, progress);
         const translateX = interpolate(startTransform.translateX, endTransform.translateX, progress);
         const translateY = interpolate(startTransform.translateY, endTransform.translateY, progress);
@@ -34,7 +38,7 @@ function drawSaucer(ctx) {
         ctx.restore();
         if (progress === 1) {
 			clearInterval(intervalId);
-			drawHouse(ctx)
+			// drawHouse(ctx)
 			// disappearHouse(ctx);
 			// drawHouse(ctx)
             setTimeout(() => {

@@ -10,7 +10,6 @@
 let houseVisible = true;
 
 function drawHouse(ctx, opacity = 1) {
-    // Check if house is visible
     if (!houseVisible) return;
 
     ctx.save();
@@ -356,3 +355,5 @@ function disappearHouse(ctx) {
         drawHouse(ctx)// Set house as visible after 1 second
     }, 900);
 }
+
+
